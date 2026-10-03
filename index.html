@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sobre Privacy Policy</title>
+<meta name="description" content="Sobre keeps your numbers on your phone. Nothing leaves it unless you turn something on.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f6f2;--fg:#1c1b22;--muted:#5d5b66;--card:#ffffff;--line:#e3e1da;--accent:#5b3fd1}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121116;--fg:#efedf5;--muted:#a09db0;--card:#1b1a21;--line:#2c2a35;--accent:#a99bff}}
+:root[data-theme="dark"]{--bg:#121116;--fg:#efedf5;--muted:#a09db0;--card:#1b1a21;--line:#2c2a35;--accent:#a99bff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 Inter,system-ui,-apple-system,sans-serif}
+main{max-width:680px;margin:0 auto;padding:40px 16px 72px}
+h1{font-size:32px;line-height:1.15;margin:0 0 8px;letter-spacing:-.02em}
+h2{font-size:20px;margin:36px 0 8px;letter-spacing:-.01em}
+p,li{color:var(--fg)}
+.eff{color:var(--muted);margin:0 0 24px;font-size:14px}
+.lede{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:12px;padding:16px 18px;font-size:18px;margin:0 0 8px}
+ul{padding-left:22px}li{margin:6px 0}
+strong{font-weight:600}
+footer{margin-top:48px;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<main>
+<h1>Sobre Privacy Policy</h1>
+<p class="eff">Effective: 3 October 2026</p>
+<p class="lede"><strong>Short version: it's on your phone. Nothing leaves it unless you choose to turn something on.</strong></p>
+<p>Sobre is a balance tracker for your accounts, bills and debts. There is no Sobre account, no sign-up and no login. Your numbers live in a database on your phone.</p>
+<h2>What we collect</h2>
+<p>Nothing, by default. Sobre does not collect your name, email, phone number, contacts, location, balances, bills, debts or any other personal information. We never receive it, so we can't read it, sell it or lose it.</p>
+<p>The only thing the app asks our server for at launch is its settings (a plain request that carries none of your data). Like any internet request, it reaches us with an IP address, which we don't use to identify or track you.</p>
+<h2>Optional: anonymous usage</h2>
+<p>The first time you have an account in Sobre, we ask whether you'll share anonymous usage. The default is off, and "No" is a fine answer. You can change it any time in You &gt; Share anonymous usage.</p>
+<p>If you say yes, Sobre sends a small event when you do things like add a bill, add a time deposit, try the debt what-if, or come back after a long break. Each event carries only a count, a yes/no, or a fixed label (for example the bill category and how often it repeats). Never amounts, names, merchants, account labels or anything you type. Events are tagged with a random ID that isn't linked to you, resets each time you opt in, and is deleted when you opt out. We switch off location lookup, and don't read your advertising ID.</p>
+<p>We use this to learn which parts of Sobre get used so we can make them better. Turn the switch off and sending stops immediately. The events are handled by PostHog (us.i.posthog.com), our analytics provider.</p>
+<h2>iCloud backup</h2>
+<p>If you turn on backup, Sobre makes an encrypted copy of your data (AES-256) and puts it in your own iCloud Drive. The key lives in your iCloud Keychain. Apple stores both; we never see the backup, the key or what's inside. That also means we can't recover it for you: it's yours, and so is the responsibility to keep your recovery code safe.</p>
+<h2>On your phone</h2>
+<ul>
+<li>App lock and Face ID / Touch ID: handled by iOS. Sobre only learns "unlocked or not", never your biometrics.</li>
+<li>Bill and debt reminders: scheduled on your phone. Sobre doesn't use push notifications.</li>
+<li>Photos and files: Sobre only touches a screenshot or file you pick. Reading it happens on your phone.</li>
+<li>Statement and screenshot reading (the extraction service) is not used in this version.</li>
+</ul>
+<h2>Your rights, and your data</h2>
+<p>It's your data. You can:</p>
+<ul>
+<li><strong>Export</strong> all of it from You &gt; Export my data (a CSV you can share or save).</li>
+<li><strong>Delete</strong> all of it from You &gt; Delete all my data. This wipes the database on your phone. Any iCloud backup is yours to manage in iCloud Drive.</li>
+<li><strong>Turn off analytics</strong> at any time.</li>
+</ul>
+<p>Because we hold no personal data about you, there is nothing for us to export or delete on our side. If you shared anonymous usage and want it gone, tell us (contact below) and we'll delete what we can match to you, though the ID is random and may not be traceable.</p>
+<p>If you're in the Philippines, the Data Privacy Act of 2012 (RA 10173) gives you rights to be informed, to access, correct and erase your data, and to complain to the National Privacy Commission (privacy.gov.ph). Wherever you live, you can ask us what we hold, and we'll tell you honestly. Usually: nothing.</p>
+<h2>Children</h2>
+<p>Sobre isn't made for children under 13 and we don't knowingly collect anything from them. If you think a child has shared data through analytics, contact us and we'll delete it.</p>
+<h2>Changes</h2>
+<p>If this changes in a way that matters (for example, a new feature that sends data off your phone), we'll update this page and ask you in the app before anything is sent.</p>
+<h2>Contact</h2>
+<p><a href="mailto:rjay.tedoco@gmail.com">rjay.tedoco@gmail.com</a></p>
+<p>Sobre is made by R-Jay Tedoco.</p>
+<footer>Sobre</footer>
+</main>
+</body>
+</html>
